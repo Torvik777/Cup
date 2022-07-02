@@ -768,6 +768,10 @@ body {
   }
 }
 @media (max-width: 837px) {
+  .body {
+    overflow: hidden;
+  }
+
   .container {
     width: 700px;
   }
@@ -797,8 +801,8 @@ body {
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #fff;
     z-index: 10;
     left: 0px;
@@ -1204,9 +1208,13 @@ body {
             flex-direction: column;
   }
 
+  .section-2__cup-fon {
+    width: 100%;
+    height: 220px;
+  }
   .section-2__cup-fon img {
     position: absolute;
-    width: 339px;
+    width: 90%;
     top: -21px;
     left: 18px;
   }
